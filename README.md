@@ -24,5 +24,5 @@ This project demonstrates a Python web server application deployed to an AWS EKS
 
 1. **Build and Push Docker Image**  
    ```bash
-   docker build -t your-dockerhub/gandalf-app .
-   docker push your-dockerhub/gandalf-app
+   docker build -t pablosalas81/gandalf-app .
+   docker push pablosalas81/gandalf-app
