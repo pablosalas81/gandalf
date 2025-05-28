@@ -94,10 +94,3 @@ gandalf-web-server/
 │   └── deployment.yaml     
 └── README.md               
 ```
-
----
-
-## 👨‍💻 Author
-
-This project was developed as part of a hands-on exercise. All code and configuration are original and self-written after researching best practices.
-
