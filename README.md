@@ -1,5 +1,5 @@
 
-Gandalf Web Server (Python + Kubernetes + Prometheus)
+Gandalf app.
 
 Features:
 
