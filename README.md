@@ -87,10 +87,24 @@ Project Structure
 ```
 gandalf-web-server/
 │
-├── app.py                  
-├── Dockerfile              
-├── gandalf.jpg             
+├── app/
+│   └── gandalf.jpg
+│   └── main.py
+│   └── requirements.txt
+├── infra/
+│   └──terrafor/
+│         └──eks/
+│           └──eks.tf
+│       └── main.tf
+│       └──outputs.tf
+│       └──variables.tf
+│       └──versions.tf
+│   └──ec2.prometheus.setup.sh
 ├── k8s/
-│   └── deployment.yaml     
+│   └── deployment.yaml
+│   └── service.yaml
+├── prometheus/
+│   └── prometheus.yaml           
+├── Dockerfile                 
 └── README.md               
 ```
